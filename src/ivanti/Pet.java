@@ -4,7 +4,7 @@ public class Pet {
 
 	public static void main(String[] args) {
 
-		Animal myPet;
+		
 		Dog myPet1 = new Dog();
 		myPet1.setName("tommy");
 		myPet1.setDogFurColour("Black");
@@ -21,9 +21,6 @@ public class Pet {
 		System.out.println("Poison Level =" + myPet2.getFrogPoisonLevel());
 		myPet2.jump();
 		myPet2.croak();
-
-		myPet = myPet2;
-
 	}
 
 }
