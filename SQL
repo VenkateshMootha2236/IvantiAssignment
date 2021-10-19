@@ -1,0 +1,4 @@
+SELECT DISTINCT manufacturer, model
+   FROM Table
+   WHERE price = 
+    (SELECT MAX(price) FROM Table);
