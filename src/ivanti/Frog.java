@@ -3,11 +3,13 @@ package ivanti;
 public class Frog extends Animal implements Croak {
 
 	private String frogPoisonLevel;
-
+	
+	//Getter
 	public String getFrogPoisonLevel() {
 		return frogPoisonLevel;
 	}
-
+	
+	//Setter
 	public void setFrogPoisonLevel(String frogPoisonLevel) {
 		this.frogPoisonLevel = frogPoisonLevel;
 	}
