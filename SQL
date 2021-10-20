@@ -1,4 +1,4 @@
-SELECT DISTINCT manufacturer, model
-   FROM Table
-   WHERE price = 
-    (SELECT MAX(price) FROM Table);
+-- Assume Table name as cars
+
+SELECT a.manufacturer, a.model, a.price FROM cars a 
+WHERE a.price = (SELECT max(price) FROM cars b WHERE b.manufacturer=a.manufacturer);
